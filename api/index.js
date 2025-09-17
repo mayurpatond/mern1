@@ -13,7 +13,7 @@ app.use(express.json());
 // MongoDB connection
 async function connectDB() {
   try {
-    await mongoose.connect('mongodb+srv://bloguser:trUDaQmqzVSf2tHW@cluster0.6jpmjr5.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0', {
+    await mongoose.connect('mongodb+srv://mgpatond_db_user:Z7ztW6MozKrTJAAl@cluster1.9ywln8e.mongodb.net/?retryWrites=true&w=majority&appName=cluster1', {
       serverApi: {
         version: '1',
         strict: true,
